@@ -16,10 +16,35 @@ function init() {
             message: 'Please give a detailed description of your project.'
         },
         {
+            type:
+            name: 'installation'
+            message:
+        }
+        {
+            type:
+            name: 'usage'
+            message:
+        }
+        {
+            type:
+            name: 'contributing'
+            message:
+        }
+        {
+            type:
+            name: 'test'
+            message:
+        }
+        {
             type: 'list',
             name: 'license',
             message: 'If any, what license did you use for this project?',
             choices: ['MIT', 'Apache 2.0', 'None']
+        }
+        {
+            type: 'input'
+            name: 'Questions'
+            message: 'What is your github?'
         }
     ]).then((answers) => {
         console.log(answers);
@@ -29,3 +54,14 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
+// installation
+// usage
+// contributing
+// test
+// github username
+// email address
+
+// sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
