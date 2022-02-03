@@ -21,14 +21,14 @@ function init() {
             message:
         }
         {
-            type:
+            type: 'input'
             name: 'usage'
-            message:
+            message: ''
         }
         {
-            type:
-            name: 'contributing'
-            message:
+            type: 'input'
+            name: 'credits'
+            message: 'Are there any collaborators to your project?'
         }
         {
             type:
@@ -40,6 +40,11 @@ function init() {
             name: 'license',
             message: 'If any, what license did you use for this project?',
             choices: ['MIT', 'Apache 2.0', 'None']
+        }
+        {
+            type: 'list'
+            name: 'badges'
+            message: 'If any, what badges do you have?'
         }
         {
             type: 'input'
