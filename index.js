@@ -20,21 +20,21 @@ function init() {
             name: 'installation',
             message: 'Instructions on how to install.'
         },
-        // {
-        //     type: 'input',
-        //     name: 'usage',
-        //     message: ''
-        // },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'How would you use this?'
+        },
         {
             type: 'input',
             name: 'credits',
             message: 'Are there any collaborators to your project?'
         },
-        // {
-        //     type: 'input',
-        //     name: 'test',
-        //     message:
-        // },
+        {
+            type: 'input',
+            name: 'test',
+            message: 'How would you test this project'
+        },
         {
             type: 'list',
             name: 'license',
